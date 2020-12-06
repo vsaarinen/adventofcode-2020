@@ -7,4 +7,4 @@
 
 import Foundation
 
-aoc2()
+aoc3()
