@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FDC52A47257C2E0D00D30D25 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC52A46257C2E0D00D30D25 /* main.swift */; };
+		FDC52A47257C2E0D00D30D25 /* 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC52A46257C2E0D00D30D25 /* 1.swift */; };
+		FDD78F5A257D4CAA005E641E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD78F59257D4CAA005E641E /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		FDC52A43257C2E0D00D30D25 /* aoc2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = aoc2020; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDC52A46257C2E0D00D30D25 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FDC52A46257C2E0D00D30D25 /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
+		FDD78F59257D4CAA005E641E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +43,8 @@
 		FDC52A3A257C2E0D00D30D25 = {
 			isa = PBXGroup;
 			children = (
-				FDC52A45257C2E0D00D30D25 /* aoc2020 */,
+				FDD78F59257D4CAA005E641E /* main.swift */,
+				FDC52A46257C2E0D00D30D25 /* 1.swift */,
 				FDC52A44257C2E0D00D30D25 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +55,6 @@
 				FDC52A43257C2E0D00D30D25 /* aoc2020 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FDC52A45257C2E0D00D30D25 /* aoc2020 */ = {
-			isa = PBXGroup;
-			children = (
-				FDC52A46257C2E0D00D30D25 /* main.swift */,
-			);
-			path = aoc2020;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +114,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDC52A47257C2E0D00D30D25 /* main.swift in Sources */,
+				FDC52A47257C2E0D00D30D25 /* 1.swift in Sources */,
+				FDD78F5A257D4CAA005E641E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
