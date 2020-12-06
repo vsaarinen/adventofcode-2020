@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD63FFFC257D3E97008F8AEB /* 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD63FFFB257D3E97008F8AEB /* 2.swift */; };
 		FDC52A47257C2E0D00D30D25 /* 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC52A46257C2E0D00D30D25 /* 1.swift */; };
 		FDD78F5A257D4CAA005E641E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD78F59257D4CAA005E641E /* main.swift */; };
+		FDF0FF02257D598A00BC7717 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF0FF01257D598A00BC7717 /* utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +26,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FD63FFFB257D3E97008F8AEB /* 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.swift; sourceTree = "<group>"; };
 		FDC52A43257C2E0D00D30D25 /* aoc2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = aoc2020; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC52A46257C2E0D00D30D25 /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
 		FDD78F59257D4CAA005E641E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FDD78F62257D4F4B005E641E /* 2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2.txt; sourceTree = "<group>"; };
+		FDF0FF01257D598A00BC7717 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +48,10 @@
 		FDC52A3A257C2E0D00D30D25 = {
 			isa = PBXGroup;
 			children = (
+				FDF0FF01257D598A00BC7717 /* utils.swift */,
 				FDD78F59257D4CAA005E641E /* main.swift */,
+				FD63FFFB257D3E97008F8AEB /* 2.swift */,
+				FDD78F62257D4F4B005E641E /* 2.txt */,
 				FDC52A46257C2E0D00D30D25 /* 1.swift */,
 				FDC52A44257C2E0D00D30D25 /* Products */,
 			);
@@ -114,8 +122,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD63FFFC257D3E97008F8AEB /* 2.swift in Sources */,
 				FDC52A47257C2E0D00D30D25 /* 1.swift in Sources */,
 				FDD78F5A257D4CAA005E641E /* main.swift in Sources */,
+				FDF0FF02257D598A00BC7717 /* utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
